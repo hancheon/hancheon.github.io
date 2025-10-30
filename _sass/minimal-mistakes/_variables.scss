@@ -64,11 +64,11 @@ $serif: $default-serif !default;
 $sans-serif: $default-sans-serif !default;
 $sans-serif-narrow: $sans-serif !default;
 $monospace: $default-monospace !default;
-$cat: "OngleipParkDahyeon" !default;
+$myFont: "Cafe24Oneprettynight" !default;
 
-$global-font-family: $cat !default;
-$header-font-family: $cat !default;
-$caption-font-family: $cat !default;
+$global-font-family: $myFont !default;
+$header-font-family: $myFont !default;
+$caption-font-family: $myFont !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
