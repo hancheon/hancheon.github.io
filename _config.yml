@@ -21,7 +21,7 @@ title                    : "한천의 성장 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "한천"
-description              : "게임 서버 개발자가 되기 위해 공부하고 있습니다 :D"
+description              : "게임 서버 공부중입니다! :D"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "한천"
   avatar           : "/assets/images/cat.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "게임 서버 개발자가 되기 위해 공부하고 있습니다 :D"
+  bio              : "게임 서버 공부중입니다! :D"
   #location         : "South Korea"
   links:
     - label: "Email"
