@@ -51,12 +51,12 @@
   h5,
   h6 {
     margin-bottom: 0;
-    font-family: $myFont;
+    font-family: $sans-serif-narrow;
   }
 
   p,
   li {
-    font-family: $myFont;
+    font-family: $serif;
     font-size: $type-size-6;
     line-height: 1.5;
   }
@@ -148,6 +148,7 @@
   vertical-align: top;
   padding-inline: 15px 25px;
   line-height: 1;
+  font-family: $myFont;
 
   @include breakpoint($large) {
     display: block;
@@ -176,10 +177,18 @@
 
 .author__bio {
   margin: 0;
+  font-family: $myFont;
+  font-size: $type-size-4;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+
+  p {
+    font-family: $myFont;
+    margin-top: 1.6px;
+    margin-bottom: 3px;
   }
 }
 
@@ -187,7 +196,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $myFont;
+  font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
 

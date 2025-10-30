@@ -11,7 +11,7 @@
   margin: 0 auto;
   max-width: 100%;
   padding-inline: 1em;
-  font-family: $myFont;
+  font-family: $sans-serif;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.3s;
@@ -60,7 +60,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: $myFont;
+    font-family: $sans-serif;
   }
 
   li {
@@ -72,7 +72,7 @@
       display: block;
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
-      font-family: $myFont;
+      font-family: $sans-serif;
       font-size: 14px;
       font-weight: bold;
       line-height: 1.5;
@@ -122,7 +122,7 @@
     padding: 1em 2em;
     float: inline-start;
     width: 50%;
-    font-family: $myFont;
+    font-family: $sans-serif;
     font-size: $type-size-5;
     font-weight: bold;
     text-align: center;
@@ -130,6 +130,11 @@
     color: $muted-text-color;
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
+
+    .prev_next {
+      font-family: $myFont;
+      color:#ffd861;
+    }
 
     &:hover {
       @include yiq-contrasted($muted-text-color);
@@ -439,9 +444,23 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
+  font-family: $sans-serif;
+
+  img { // 방문자수 이미지 크기 맞추느라 추가했던 것
+    width: auto; height: auto;
+    max-width: 140px;
+    max-height: 38px;
+    margin-bottom: 1em;
+  }
 
   a {
     color: inherit;
+    font-size: $type-size-3;
+    font-family: $myFont;
+    color: mix(#fff,$primary-color,80%);
+
+    &:hover {
+      text-decoration: underline;
   }
 
   .active {
@@ -481,7 +500,7 @@
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-family: $myFont;
+  font-family: $sans-serif-narrow;
   font-size: $type-size-5;
   font-weight: bold;
 }
@@ -490,7 +509,7 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $myFont;
+  font-family: $serif;
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;

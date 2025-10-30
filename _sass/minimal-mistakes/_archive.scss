@@ -32,11 +32,12 @@
 }
 
 .archive__subtitle {
-  margin: 1.414em 0 0.5em;
+  margin: 0.8em 0 0;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
-  color: $muted-text-color;
+  font-size: $type-size-3;
+  color: mix(#fff,$primary-color, 40%);
   border-bottom: 1px solid $border-color;
+  font-family: $serif;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -44,16 +45,21 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
-  font-family: $myFont;
-  line-height: initial;
+  margin-bottom: 0.9em;
+  font-family: $sans-serif-narrow;
+  line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: $myFont;
+  font-size: $type-size-4;
 
   a[rel="permalink"]::before {
     content: '';
     position: absolute;
-    inset: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
   }
 
   a + a {
