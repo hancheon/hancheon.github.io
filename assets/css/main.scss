@@ -11,7 +11,7 @@ search: false
 // font
 @font-face {
     font-family: 'memomentKkukkkuk';
-    src: url('../fonts/memomentKkukkkuk.otf');
+    src: url('../fonts/memomentKkukkkuk.otf') format('opentype');;
     font-weight: 300;
     font-display: swap;
 }
