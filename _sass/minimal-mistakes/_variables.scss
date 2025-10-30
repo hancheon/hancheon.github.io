@@ -60,10 +60,10 @@ $default-monospace: Monaco, Consolas, "Lucida Console", monospace;
 $emoji-native: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
 /* system typefaces */
-$serif: $default-serif !default;
-$sans-serif: $default-sans-serif !default;
-$sans-serif-narrow: $sans-serif !default;
-$monospace: $default-monospace !default;
+$serif: "Coming Soon", Georgia, Times, serif !default;
+$sans-serif: "Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
 $myFont: "Cafe24Oneprettynight" !default;
 
 $global-font-family: $myFont !default;
