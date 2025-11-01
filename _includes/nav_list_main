@@ -123,6 +123,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "TIL " %}
+                        <li><a href="/categories/til" class=""TIL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "GameReview" %}
                         <li><a href="/categories/gamereview" class="">게임 리뷰 ({{category[1].size}})</a></li>
                     {% endif %}
